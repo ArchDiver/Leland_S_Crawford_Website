@@ -1,0 +1,36 @@
+body {
+    /* background-color: black; */
+    background-image: url(/Coding_Temple/HTML/LSC_wesite/Photos/matrix_Digital_rain_animation_small_letters_clear.gif);
+    background-repeat: repeat;
+    background-size: auto;
+    background-blend-mode: color;
+    color: rgba(0, 234, 0, 1);
+    font-family: 'VT323', monospace;
+    font-size: 200%;
+}
+/* p {
+    color: rgba(0, 234, 0, 1);
+} */
+/* nav {
+    display: inline-block;
+} */
+
+.matrix:hover {
+    /* Are you there, Neo? */
+    text-shadow: 5px 5px 10px rgba(0, 234, 0, 1);
+    color: rgba(0, 234, 0, 1);
+    /* I would really like to use 'OCR A Std, monospace' for a matrix like look */
+    font-family: Consolas, 'Courier New', monospace;
+    font-size: 300%; 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap; */
+    justify-content:space-between;
+    flex-shrink: 0;
+}
+div {
+    border: 2px dashed rgba(0, 234, 0, 1);
+}
