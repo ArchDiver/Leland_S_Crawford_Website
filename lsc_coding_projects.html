@@ -1,28 +1,44 @@
 <!DOCTYPE html>
 <html>
-    <head>
-      <title>Leland Crawford's Coding Projects</title>
-      <!-- Required meta tags -->
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head lang="en-us">
+    <title>About Leland Crawford</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- This gives us animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
 
-      <!-- Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-      <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-      <!-- This gives us animate.css -->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    
+    <!-- Your own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="lsc_coding_projects_style.css">
 
-      <!-- Your own stylesheet -->
-      <link rel="stylesheet" type= "text/css" href="lsc_coding_projects_style.css">
-    </head>
-    <body>
-      <div>
-        <!-- This is the Navbar -->
-      <div>
-        <!-- Bootstrap Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-image: url('Photos/IMG_0790.JPG'); background-size: cover;" >
+  </head>
+  <body>
+    Javascript needed for bootstrap
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <header>
+
+      <!--General Nav bar-->
+      <!-- <nav>
+          <ul>
+              <li><a href="lsc_index.html"> <strong>Home</strong> </a></li>
+              <li><a href="lsc_about.html"> <strong>About</strong> </a></li>
+              <li><a href="lsc_coding_projects.html"> <strong>Coding Projects</strong> </a><br /></li>
+              <li><a href="lsc_user_questionnaire.html"><strong>Tell me about yourself!(And Register)</strong></a></li>
+              <li><a href="lsc_photo.html"><strong>Photos</strong></a></li>
+              <li><a href="lsc_login.html"> <strong>Login</strong> </a></li>
+          </ul>
+      </nav> -->
+      <!-- Bootstrap Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light background-image: url(Photos/IMG_0790.JPG)" style="background-image: url(Photos/IMG_0790.JPG);">
           <a class="navbar-brand" href="index.html">Leland Crawford</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,7 +62,7 @@
                 <a class="nav-link" href="lsc_photo.html">Photos</a>
               </li>
               <!-- <li class="nav-item">
-                <a class="nav-link" href="lsc_login.html">Login</a>
+                 <a class="nav-link" href="lsc_login.html">Login</a>
               </li> -->
               <!-- <li class="nav-item">
                   <a class="nav-link" href="#">Link</a>
@@ -57,7 +73,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="lsc_login.html">Login</a>
-                  <a class="dropdown-item" href="lsc_register.html">About You(Register)</a>
+                  <a class="dropdown-item" href="lsc_register.html">About You (Register)</a>
                   <div class="dropdown-divider"></div>
                   <a class="dropdown-item" href="#">Something else here</a>
                 </div>
@@ -66,65 +82,59 @@
                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
               </li>
             </ul>
+            <!-- bootstrap version of search -->
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <!-- LSC version of search -->
+            <!-- <form action="lsc_about.html/search.php">
+              <input type="search" name="search" placeholder="search"/>
+              <input type="submit" value="search" /> -->
             </form>
           </div>
         </nav>
-        <!--General Nav bar-->
-        <!-- <nav>
-          <ul>
-            <li><a href="index.html"> <strong>Home</strong> </a></li>
-            <li><a href="lsc_about.html"> <strong>About</strong> </a></li>
-            <li><a href="lsc_coding_projects.html"> <strong>Coding Projects</strong> </a><br /></li>
-            <li><a href="lsc_user_questionnaire.html"><strong>Tell me about yourself!(And Register)</strong></a></li>
-            <li><a href="lsc_photo.html"><strong>Photos</strong></a></li>
-            <li><a href="lsc_login.html"> <strong>Login</strong> </a></li>
-          </ul>
-        </nav>  -->
-      </div>
-      <!-- This is the main body -->
-      <div>
-        <!-- This is the section for coding projects -->
-        <div class="container">
-          <section>
-              <h1>Leland's Example Coding projects</h1>
-              <div class="container">
-                  <div class="divlang">
-                      <h2 class="matrix">Python</h2><hr>
-                      <h3>This is where Python stuff will go.</h3>
-                      <hr><br>
-                  </div>
-                  <div class="divlang">
-                      <h2 class="matrix">HTML</h2><hr>
-                      <h3>This is where html stuff will go.</h3>          
-                      <hr><br>
-                  </div>
-                  <div class="divlang">
-                      <h2 class="matrix">CSS</h2><hr>
-                      <h3>This is where CSS stuff will go. </h3>          
-                      <hr>
-                  </div>
-              </div>
-              <hr>
+    </header>
+    <!-- This is the main body -->
+    <div>
+      <!-- This is the section for coding projects -->
+      <div class="container">
+        <section>
+            <h1 class="matrix" style="font-size: 5rem;">Leland's Example Coding Projects</h1>
+            <div class="container">
+                <div class="divlang">
+                    <h2 class="matrix">Python</h2><hr>
+                    <h3>This is where Python stuff will go.</h3>
+                    <hr><br>
+                </div>
+                <div class="divlang">
+                    <h2 class="matrix">HTML</h2><hr>
+                    <h3>This is where html stuff will go.</h3>          
+                    <hr><br>
+                </div>
+                <div class="divlang">
+                    <h2 class="matrix">CSS</h2><hr>
+                    <h3>This is where CSS stuff will go. </h3>          
+                    <hr>
+                </div>
+            </div>
+            <hr>
 
-          </section>
-        </div>
-        <!-- This is the section with random stuff -->
-        <div class="container">
-            <section>
-                <p><h1 class="matrix" style="color: rgba(0, 0, 0, 1);">Are you there?...SEARCHING....</h1></p>
-                 <p> <a href="https://rubberduckdebugging.com/cyberduck/"><h6>All hail the Rubber Duck!!</h6></a> </p>
-                 <p></p>
-            </section>
-        </div>
+        </section>
       </div>
-      
+      <!-- This is the section with random stuff -->
+      <div class="container">
+          <section>
+              <p><h1 class="matrix" style="color: rgba(0, 0, 0, 1);">Are you there?...SEARCHING....</h1></p>
+               <p> <a href="https://rubberduckdebugging.com/cyberduck/"><h6>All hail the Rubber Duck!!</h6></a> </p>
+               <p></p>
+          </section>
+      </div>
+    </div>
     
-        <!-- Javascript needed for bootstrap -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-    </body>
+  
+      <!-- Javascript needed for bootstrap
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+  </body>
 </html>
