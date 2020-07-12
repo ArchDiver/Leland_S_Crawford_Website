@@ -9,23 +9,34 @@ html {
   -o-background-size: cover;
   background-size: cover;
   background-color: rgb(79, 57, 88);
+  color: #e2dbdb;
+}
+
+
+
+.container {
+  text-align: center;
+  color: #e2dbdb;
+  background-color: rgba(79, 57, 88, 0.8);
 }
 
 
 h1 {
   font-size: 3rem;
-  color: #e2dbdb;
-  text-shadow:3px 3px 3px rgb(39, 37, 37);
-
+  text-shadow:3px 3px 3px rgba(23, 16, 26, 1);
+/* 
+  font-family: fantasy;
+  font-size: 3em; */
+  border-bottom: 0px 2px 2px 0px solid rgba(202, 145, 224, 1);
+  /* border-right: 2px solid rgba(202, 145, 224, 0.5); */
+  /* width: 400px; */
+  text-align: center;
+  box-shadow: 4px 4px 4px 4px rgba(218, 214, 219, 1);
+  margin: 5px;
 }
 h2 {
   font-size: 2rem;
-  color: #e2dbdb;
   text-shadow:1px 1px 1px rgb(39, 37, 37);
-}
-
-h6 {
-  color: #e2dbdb;
 }
 
 hr {
@@ -56,3 +67,14 @@ hr {
 
 }
 
+img {
+  height: 300px;
+}
+
+nav.navbar {
+  background-color: black;
+  background-image: url(Photos/IMG_0790.JPG);
+}
+.country {
+  text-align: left;
+}
