@@ -19,11 +19,12 @@ html {
   color: #e2dbdb;
   background-color: rgba(79, 57, 88, 0.8);
 }
-
+            
 
 h1 {
   font-size: 3rem;
   text-shadow:3px 3px 3px rgba(23, 16, 26, 1);
+  padding: 5px;
 /* 
   font-family: fantasy;
   font-size: 3em; */
@@ -67,8 +68,18 @@ hr {
 
 }
 
-img {
+/* img {
+  
   height: 300px;
+} */
+img {
+  /* width: 450px; */
+  height: 300px;
+  margin: 5px;
+  transition: all 2s;
+}
+img:hover {
+  transform: scale(2) ;
 }
 
 nav.navbar {
@@ -77,4 +88,5 @@ nav.navbar {
 }
 .country {
   text-align: left;
+  image-resolution: ;
 }

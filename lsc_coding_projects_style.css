@@ -42,14 +42,22 @@ hr {
     text-decoration: underline;
 }
 
+.hidden {
+    text-align: left;
+    color: rgba(0, 0, 0, 0);
+    font-family: 'VT323', monospace;
+    font-size: 1rem;
+    text-decoration: underline;
+}
 
 
-.matrix:hover {
+.hidden:hover {
+    color:rgba(0, 234, 0, 1);
     /* Are you there, Neo? */
     text-shadow: 5px 5px 10px rgba(0, 234, 0, 1);
     /* I would really like to use 'OCR A Std, monospace' for a matrix like look */
     /* font-family: Consolas, 'Courier New', monospace; */
-    font-size: 5vw; 
+    font-size: 5rem; 
 }
 
 .container {
