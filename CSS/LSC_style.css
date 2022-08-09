@@ -68,15 +68,18 @@ hr {
 
 }
 
+
+
+
 /* img {
   
   height: 300px;
 } */
 img {
-  /* width: 450px; */
+  width: 450px; 
   height: 300px;
-  margin: 5px;
-  transition: all 2s;
+  /* margin: 5px; */
+  transition: all 1s;
 }
 img:hover {
   transform: scale(2) ;
@@ -86,7 +89,32 @@ nav.navbar {
   background-color: black;
   background-image: url(../Images/IMG_0790.JPG);
 }
+
 .country {
   text-align: left;
-  image-resolution: 10px;
+  font-size: larger;
+  /* image-resolution: 100px; */
+  /* max-width: 100px; */
+  /* max-height: 50px; */
+  /* margin: 5px; */
 }
+.country img {
+  max-width: 150px;
+  max-height: 75px;
+}
+
+
+
+.state {
+  text-align: left;
+  font-size:medium;
+  /* image-resolution: 5px; */
+  /* height: 75px; */
+
+}
+.state img{
+  width: 65px;
+  /* max-height: 5px; */
+}
+
+
