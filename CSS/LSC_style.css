@@ -8,7 +8,7 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: rgb(79, 57, 88);
+  background-color: rgb(187, 144, 204);
   color: #e2dbdb;
 }
 
@@ -117,4 +117,28 @@ nav.navbar {
   /* max-height: 5px; */
 }
 
+
+a:link {
+  color: rgb(9, 166, 9);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(166, 124, 234);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(137, 216, 177);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
