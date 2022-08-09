@@ -14,7 +14,7 @@ html {
   height: 100%;
   /* font-family: 'VT323', monospace;
   color: rgba(0, 234, 0, 1); */
-  background: url(Photos/matrix_Digital_rain_animation_small_letters_clear.gif) black center center fixed; 
+  background: url(../Images/matrix_Digital_rain_animation_small_letters_clear.gif) black center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
