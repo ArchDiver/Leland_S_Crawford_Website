@@ -78,6 +78,7 @@ hr {
 img {
   width: 450px; 
   height: 300px;
+  object-fit: contain;
   /* margin: 5px; */
   transition: all 1s;
 }
