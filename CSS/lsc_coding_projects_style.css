@@ -13,9 +13,9 @@ html {
 
 }
 
-/* p {
-    color: rgba(0, 234, 0, 1);
-} */
+p {
+    font-size: 15px;
+}
 /* nav {
     display: inline-block;
 } */
