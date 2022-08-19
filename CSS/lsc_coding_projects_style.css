@@ -14,7 +14,7 @@ html {
 }
 
 p {
-    font-size: 15px;
+    font-size: 20px;
 }
 /* nav {
     display: inline-block;
@@ -60,7 +60,7 @@ hr {
     /* flex-wrap: nowrap; */
     justify-content:space-between;
     flex-shrink: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.5);
     border: 2px dashed rgba(0, 234, 0, 1);
     
 }
@@ -71,4 +71,9 @@ hr {
     border-color: ivory; */
     border:2px solid rgba(0, 234, 0, 1);
     padding: 4px;    
+}
+
+a {
+    font-size: 22px;
+    font-weight: 700;
 }
